@@ -1,1 +1,192 @@
 @charset "utf-8";
+a{
+    text-decoration: none;
+}
+.inner{
+    padding: 0 4%;
+}
+
+/*ヘッダー*/
+header{
+    background: #fff;
+}
+
+header .log{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.log-color{
+    color: #777;
+    margin: 15px 0;
+}
+
+.contact{
+    color: #ffffff;
+    background-color: #6ba7eb;
+    font-size: 12px;
+    padding: 12px 14px;
+    margin: 15px 0;
+}
+.contact:hover{
+    background: #333;
+    transition: 0.3s;
+}
+
+/*ヘッダー*/
+
+.keyvisual{
+    background-image:url(../img/keyvisual/keyvisual.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 400px 0;
+}
+
+h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #6ba7eb;
+    text-align: center;
+    margin: 30px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    /*margin-bottom: 400px;*/
+}
+h3{
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.title3-1{
+    padding: 20px 0 35px 0;
+    text-align: center;
+}
+.title3-2{
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+/*WE ARE SKILLS*/
+.plan-inner ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.plan-inner ul li{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.plan-inner ul li:first-child,.plan-inner ul li:nth-child(4){
+    margin-left: 0;
+}
+.skill-logo img{
+    width: 300px;
+    height: 300px;
+    opacity: 0.7;
+    
+}
+.skill-logo img:hover{
+    opacity: 1.0;
+}
+
+.skill-logo img:nth-child(1){
+    margin-left: 0;
+}
+/*WE ARE AKILLS*/
+
+
+/*WORK*/
+.WORK{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WORK{
+    background: #e3f2fd;
+}
+.work-logo img{
+    width: 250PX;
+    padding-top: 50PX;
+    margin-right: 100px;
+}
+.work-text{
+    font-size: 15PX;
+    line-height: 18PX;
+    word-break: break-all;
+    max-width: 41.5rem;
+}
+/*WORK*/
+
+
+/*テーブル*/
+.tabel-area{
+    background: #d0dfea;
+    padding-bottom: 50px;
+}
+.table{
+    table-layout: fixed;
+    width: 80%;
+    margin: auto;
+}
+
+thead th{
+    font-size: 16px;
+    line-height: 26px;
+    background: #6ba7eb;
+}
+tr{
+   background: #e0efff;
+   text-align: center;
+}
+tr:nth-child(even){
+    background: #f9f9f9; 
+}
+
+th,td{
+    border-left: 2px solid #fff;
+    padding: 10px;
+}
+th:first-child{
+    border-left: none;
+}
+/*テーブル*/
+
+/*sns*/
+.sns-area{
+    background: #e3f2fd;
+    padding: 200px 0;
+    text-align: center;
+}
+.sns li{
+    display: inline-block;
+}
+.sns-color{
+    color: #8c8c8c;
+    overflow: hidden;
+    font-size: 40px;
+    width: 185px;
+    margin: 25px 0;
+}
+.sns-color:hover{
+    opacity: 0.5s;
+    background: #fff;
+}
+/*sns*/
+
+/*footer*/
+footer .footer-text{    
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    background: #cfd8dc;
+    text-align: right;
+}
+.footer-text{
+    padding: 20px 150px 25px 0;
+}
+/*footer*/
