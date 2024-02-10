@@ -47,14 +47,13 @@ h1{
     font-weight: 700;
     color: #6ba7eb;
     text-align: center;
-    margin: 30px;
+    margin-bottom: 30px;
 }
 h2{
     font-size: 40px;
     font-weight: 700;
     color: #ffffff;
     text-align: center;
-    /*margin-bottom: 400px;*/
 }
 h3{
     font-size: 40px;
@@ -66,9 +65,12 @@ h3{
     padding: 20px 0 35px 0;
     text-align: center;
 }
-.title3-2{
-    padding: 50px 0;
+.plan{
+    padding-top: 50px;
+}
+.title3-2,.title3-3{
     text-align: center;
+    padding-bottom: 50px;
 }
 
 
@@ -79,41 +81,38 @@ h3{
     flex-wrap: wrap;
 }
 .plan-inner ul li{
-    margin-left: 100px;
-    margin-bottom: 100px;
-}
-.plan-inner ul li:first-child,.plan-inner ul li:nth-child(4){
-    margin-left: 0;
+    margin: 0 50px 100px;
 }
 .skill-logo img{
     width: 300px;
-    height: 300px;
+    height: 300px;  
     opacity: 0.7;
-    
 }
 .skill-logo img:hover{
     opacity: 1.0;
+    transition: 0.7s;
 }
 
-.skill-logo img:nth-child(1){
-    margin-left: 0;
-}
 /*WE ARE AKILLS*/
 
 
 /*WORK*/
-.WORK{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.work{
+    display: grid;
 }
-.WORK{
+.work{
     background: #e3f2fd;
+    padding-top: 50PX;
+    
 }
 .work-logo img{
     width: 250PX;
-    padding-top: 50PX;
-    margin-right: 100px;
+}
+.work-logo{
+    grid-column: 4/4;
+}
+.work-area{
+    grid-column: 5/6;
 }
 .work-text{
     font-size: 15PX;
@@ -127,7 +126,7 @@ h3{
 /*テーブル*/
 .tabel-area{
     background: #d0dfea;
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
 .table{
     table-layout: fixed;
