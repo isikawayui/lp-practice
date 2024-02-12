@@ -2,9 +2,11 @@
 a{
     text-decoration: none;
 }
-.inner{
+.inner {
+    width: auto;
+    margin: 0 auto;
     padding: 0 4%;
-}
+  }
 
 /*ヘッダー*/
 header{
@@ -79,9 +81,12 @@ h3{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    row-gap: 100px;
+    column-gap: 100px;
 }
+
 .plan-inner ul li{
-    margin: 0 50px 100px;
+    margin-bottom: 70px;
 }
 .skill-logo img{
     width: 300px;
@@ -112,7 +117,7 @@ h3{
     grid-column: 4/4;
 }
 .work-area{
-    grid-column: 5/6;
+    grid-column: 6/6;
 }
 .work-text{
     font-size: 15PX;
