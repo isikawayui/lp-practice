@@ -3,7 +3,7 @@ a{
     text-decoration: none;
 }
 .inner {
-    width: auto;
+    max-width: auto;
     margin: 0 auto;
     padding: 0 4%;
   }
@@ -64,19 +64,19 @@ h3{
 }
 
 .title3-1{
-    padding: 20px 0 35px 0;
+    margin: 20px 0 35px 0;
     text-align: center;
-}
-.plan{
-    padding-top: 50px;
 }
 .title3-2,.title3-3{
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 
 /*WE ARE SKILLS*/
+.plan{
+    padding: 50px 0 70px;
+}
 .plan-inner ul{
     display: flex;
     justify-content: center;
@@ -84,9 +84,8 @@ h3{
     row-gap: 100px;
     column-gap: 100px;
 }
-
-.plan-inner ul li{
-    margin-bottom: 70px;
+.plan .inner{
+    margin: 0;
 }
 .skill-logo img{
     width: 300px;
@@ -103,12 +102,11 @@ h3{
 
 /*WORK*/
 .work{
-    display: grid;
-}
-.work{
     background: #e3f2fd;
-    padding-top: 50PX;
-    
+    padding-top: 50PX;  
+}
+.work-layout{
+    display: grid;
 }
 .work-logo img{
     width: 250PX;
@@ -129,10 +127,11 @@ h3{
 
 
 /*テーブル*/
-.tabel-area{
+.selectplan{
+    padding: 50px 0 50px;
     background: #d0dfea;
-    padding: 50px 0;
 }
+
 .table{
     table-layout: fixed;
     width: 80%;
