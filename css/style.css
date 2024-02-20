@@ -3,9 +3,10 @@ a{
     text-decoration: none;
 }
 .inner {
-    max-width: auto;
-    margin: 0 auto;
-    padding: 0 4%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1100px;
   }
 
 /*ヘッダー*/
@@ -65,7 +66,6 @@ h3{
 
 .title3-1{
     margin: 20px 0 35px 0;
-    text-align: center;
 }
 .title3-2,.title3-3{
     text-align: center;
@@ -91,10 +91,10 @@ h3{
     width: 300px;
     height: 300px;  
     opacity: 0.7;
+    transition: 0.7s;
 }
 .skill-logo img:hover{
     opacity: 1.0;
-    transition: 0.7s;
 }
 
 /*WE ARE AKILLS*/
@@ -107,21 +107,22 @@ h3{
 }
 .work-layout{
     display: grid;
+    justify-content: space-evenly;
 }
 .work-logo img{
     width: 250PX;
 }
 .work-logo{
-    grid-column: 4/4;
+    grid-column: 2/2;
 }
 .work-area{
-    grid-column: 6/6;
+    grid-column: 3/3;
 }
 .work-text{
     font-size: 15PX;
     line-height: 18PX;
     word-break: break-all;
-    max-width: 41.5rem;
+    max-width: 40.5rem;
 }
 /*WORK*/
 
