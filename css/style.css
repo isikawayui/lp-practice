@@ -79,13 +79,10 @@ h3{
 }
 .plan-inner ul{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     row-gap: 100px;
     column-gap: 100px;
-}
-.plan .inner{
-    margin: 0;
 }
 .skill-logo img{
     width: 300px;
