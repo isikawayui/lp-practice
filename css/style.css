@@ -12,6 +12,7 @@ a{
 /*ヘッダー*/
 header{
     background: #fff;
+    padding: 15px 0;
 }
 
 header .log{
@@ -21,7 +22,6 @@ header .log{
 }
 .log-color{
     color: #777;
-    margin: 15px 0;
 }
 
 .contact{
@@ -29,7 +29,6 @@ header .log{
     background-color: #6ba7eb;
     font-size: 12px;
     padding: 12px 14px;
-    margin: 15px 0;
 }
 .contact:hover{
     background: #333;
@@ -83,6 +82,10 @@ h3{
     flex-wrap: wrap;
     row-gap: 100px;
     column-gap: 100px;
+}
+.skill-logo a{
+    display: block;
+    height: 100%;
 }
 .skill-logo img{
     width: 300px;
