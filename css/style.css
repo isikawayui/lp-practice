@@ -106,23 +106,24 @@ h3{
     padding-top: 50PX;  
 }
 .work-layout{
-    display: grid;
+    display: flex;
     justify-content: space-evenly;
 }
 .work-logo img{
     width: 250PX;
 }
 .work-logo{
-    grid-column: 2/2;
+    
+    max-width: 40%;
 }
 .work-area{
-    grid-column: 3/3;
+    
+    max-width: 60%;
 }
 .work-text{
     font-size: 15PX;
     line-height: 18PX;
     word-break: break-all;
-    max-width: 40.5rem;
 }
 /*WORK*/
 
@@ -170,12 +171,17 @@ th:first-child{
 .sns li{
     display: inline-block;
 }
+.sns a{
+    display: block;
+    height: 90px;
+}
 .sns-color{
     color: #8c8c8c;
     overflow: hidden;
     font-size: 40px;
     width: 185px;
-    margin: 25px 0;
+    padding: 25px 0;
+    transition: 0.5s;
 }
 .sns-color:hover{
     opacity: 0.5s;
