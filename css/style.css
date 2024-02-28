@@ -190,10 +190,12 @@ th:first-child{
 /*sns*/
 
 /*footer*/
+footer{
+    background: #cfd8dc;
+}
 footer .footer-text{    
     font-size: 10px;
     letter-spacing: 0.5px;
-    background: #cfd8dc;
     text-align: right;
 }
 .footer-text{
