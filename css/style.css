@@ -172,9 +172,9 @@ th:first-child{
     padding: 200px 0;
     text-align: center;
 }
-.sns li{
-    display: inline-block;
-    padding-left: 0;
+.sns ul{
+    display: flex;
+    justify-content: center;
 }
 .sns a{
     display: block;
