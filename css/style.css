@@ -2,6 +2,10 @@
 a{
     text-decoration: none;
 }
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+  }
 .inner {
     margin-left: auto;
     margin-right: auto;
@@ -117,12 +121,11 @@ h3{
     width: 250PX;
 }
 .work-logo{
-    
-    max-width: 40%;
+    width: 40%;
 }
 .work-area{
-    
-    max-width: 60%;
+    width: 60%;
+    text-align: center;
 }
 .work-text{
     font-size: 15PX;
@@ -140,8 +143,7 @@ h3{
 
 .table{
     table-layout: fixed;
-    width: 80%;
-    margin: auto;
+    width: 100%;
 }
 
 thead th{
