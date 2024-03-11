@@ -38,6 +38,9 @@ header .log{
     background: #333;
     transition: 0.3s;
 }
+.sp-hamburger{
+    display: none;
+}
 
 /*ヘッダー*/
 
@@ -210,3 +213,127 @@ footer .footer-text{
     padding: 20px 0 25px 0;
 }
 /*footer*/
+
+
+@media screen and (max-width:767px) {
+/*ハンバーガーメニュー*/
+    .contact{
+        display: none;
+    }
+    header .sp-hamburger{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .sp-hamburger{
+        width: 60px;
+        height: 50px;
+        position: relative;
+        border: 1px solid #cfd8dc;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .sp-hamburger span{
+        display: inline-block;
+        position: absolute;
+        width: 50%;
+        height: 4px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: #cfd8dc;
+    }
+    .sp-hamburger span:nth-of-type(1){
+        top: 13px;
+    }
+    .sp-hamburger span:nth-of-type(2){
+        top: 25px;
+    }
+    .sp-hamburger span:nth-of-type(3){
+        top: 37px;
+    }
+/*ハンバーガーメニュー*/
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .keyvisual{
+        padding: 200px 0;
+    }
+  .work-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-area,.work-logo{
+    max-width: 100%;
+    width: auto;
+  }
+  .work-text{
+    padding-bottom: 50px;
+  }
+
+  th{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  td{
+    font-size: 12px;
+  }
+
+  .plan-inner ul{
+    flex-direction: column;
+    align-items: center;
+    row-gap: normal;
+  }
+  .skill-logo:nth-child(3n){
+    margin-bottom: 80px;
+  }
+  .plan{
+    padding-bottom: 0;
+  }
+
+  .sns-area{
+    padding: 50px 0;
+  }
+  .sns ul{
+    flex-direction: column;
+  }
+  
+  .sns-area li{
+    display: block;
+    padding: 15px 50px;
+  }
+}
+
+@media screen and (max-width:1199px){
+    .keyvisual{
+        padding: 250px 0;
+    }
+
+    .work-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-area,.work-logo{
+    max-width: 100%;
+    width: auto;
+  }
+  .work-text{
+    padding-bottom: 50px;
+  }
+  .plan-inner ul{
+    flex-direction: column;
+    align-items: center;
+    row-gap: normal;
+  }
+  .skill-logo:nth-child(3n){
+    margin-bottom: 80px;
+  }
+  .plan{
+    padding-bottom: 0;
+  }
+}
