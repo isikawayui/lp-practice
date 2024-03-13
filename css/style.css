@@ -216,19 +216,21 @@ footer .footer-text{
 
 
 @media screen and (max-width:767px) {
-
-    .wrapper,.inner{
+    .wrapper{
         max-width: 767px;
+        margin: auto;
+    }
+    .inner{
+        max-width: 767px;
+        width: 100%;
       }
-    
-
 /*ハンバーガーメニュー*/
     .contact{
         display: none;
     }
     header .log{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
     }
     header .sp-hamburger{
@@ -322,9 +324,13 @@ footer .footer-text{
 }
 
 @media screen and (max-width:1199px){
-
-    .wrapper,.inner{
+    .wrapper{
+        max-width: 767px;
+        margin: auto;
+    }
+    .inner{
         max-width: 1199px;
+        width: 100%;
       }
       
     .keyvisual{
