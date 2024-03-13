@@ -216,14 +216,23 @@ footer .footer-text{
 
 
 @media screen and (max-width:767px) {
+
+    .wrapper,.inner{
+        max-width: 767px;
+      }
+    
+
 /*ハンバーガーメニュー*/
     .contact{
         display: none;
     }
+    header .log{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
     header .sp-hamburger{
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
     }
     .sp-hamburger{
         width: 60px;
@@ -288,11 +297,11 @@ footer .footer-text{
     align-items: center;
     row-gap: normal;
   }
-  .skill-logo:nth-child(3n){
-    margin-bottom: 80px;
+  .skill-logo:nth-child(3n+1){
+    padding-top: 80px;
   }
-  .plan{
-    padding-bottom: 0;
+  .skill-logo:first-child{
+    padding-top: 0;
   }
 
   .sns-area{
@@ -306,9 +315,18 @@ footer .footer-text{
     display: block;
     padding: 15px 50px;
   }
+
+  .sns-color:hover{
+    width: 100%;
+}
 }
 
 @media screen and (max-width:1199px){
+
+    .wrapper,.inner{
+        max-width: 1199px;
+      }
+      
     .keyvisual{
         padding: 250px 0;
     }
@@ -330,10 +348,13 @@ footer .footer-text{
     align-items: center;
     row-gap: normal;
   }
-  .skill-logo:nth-child(3n){
-    margin-bottom: 80px;
+  .skill-logo:nth-child(3n+1){
+    padding-top: 80px;
   }
-  .plan{
-    padding-bottom: 0;
+  .skill-logo:first-child{
+    padding-top: 0;
   }
+  .sns-color:hover{
+    width: 100%;
+}
 }
