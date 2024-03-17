@@ -222,7 +222,7 @@ footer .footer-text{
     }
     .inner{
         max-width: 767px;
-        width: 100%;
+        width: 97%;
       }
 /*ハンバーガーメニュー*/
     .contact{
@@ -325,12 +325,12 @@ footer .footer-text{
 
 @media screen and (max-width:1199px){
     .wrapper{
-        max-width: 767px;
+        max-width: 1199px;
         margin: auto;
     }
     .inner{
         max-width: 1199px;
-        width: 100%;
+        width: 97%;
       }
       
     .keyvisual{
