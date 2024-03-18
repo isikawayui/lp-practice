@@ -218,6 +218,7 @@ footer .footer-text{
 @media screen and (max-width:767px) {
     .wrapper{
         max-width: 767px;
+        width: 97%;
         margin: auto;
     }
     .inner{
@@ -312,20 +313,22 @@ footer .footer-text{
   .sns ul{
     flex-direction: column;
   }
-  
-  .sns-area li{
-    display: block;
-    padding: 15px 50px;
+  .sns a{
+    height: auto;
   }
-
+  .sns-color{
+    width: 97%;
+    padding: 50px 15px;
+  }
   .sns-color:hover{
-    width: 100%;
+    width: 97%;
 }
 }
 
 @media screen and (max-width:1199px){
     .wrapper{
         max-width: 1199px;
+        width: 97%;
         margin: auto;
     }
     .inner{
@@ -360,7 +363,4 @@ footer .footer-text{
   .skill-logo:first-child{
     padding-top: 0;
   }
-  .sns-color:hover{
-    width: 100%;
-}
 }
