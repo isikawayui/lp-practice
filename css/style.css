@@ -273,6 +273,7 @@ footer .footer-text{
     }
     .keyvisual{
         padding: 200px 0;
+        max-width: 100%;
     }
   .work-layout{
     display: flex;
@@ -283,7 +284,7 @@ footer .footer-text{
     max-width: 100%;
     width: auto;
   }
-  .work-text{
+  .work{
     padding-bottom: 50px;
   }
 
@@ -315,14 +316,12 @@ footer .footer-text{
   }
   .sns a{
     height: auto;
+    line-height: 0;
   }
   .sns-color{
     width: 97%;
     padding: 50px 15px;
   }
-  .sns-color:hover{
-    width: 97%;
-}
 }
 
 @media screen and (max-width:1199px){
@@ -338,6 +337,8 @@ footer .footer-text{
       
     .keyvisual{
         padding: 250px 0;
+        max-width: 100%;
+        background-size: contain;
     }
 
     .work-layout{
@@ -349,7 +350,7 @@ footer .footer-text{
     max-width: 100%;
     width: auto;
   }
-  .work-text{
+  .work{
     padding-bottom: 50px;
   }
   .plan-inner ul{
