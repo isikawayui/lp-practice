@@ -273,7 +273,8 @@ footer .footer-text{
     }
     .keyvisual{
         padding: 200px 0;
-        max-width: 100%;
+        width: 100%;
+        background-position: 0 center;
     }
   .work-layout{
     display: flex;
@@ -337,8 +338,8 @@ footer .footer-text{
       
     .keyvisual{
         padding: 250px 0;
-        max-width: 100%;
-        background-size: contain;
+        width: 100%;
+        background-position: 0 center;
     }
 
     .work-layout{
