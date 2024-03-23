@@ -303,10 +303,10 @@ footer .footer-text{
     row-gap: normal;
   }
   .skill-logo:nth-child(3n+1){
-    padding-top: 80px;
+    margin-top: 80px;
   }
   .skill-logo:first-child{
-    padding-top: 0;
+    margin-top: 0;
   }
 
   .sns-area{
@@ -360,9 +360,9 @@ footer .footer-text{
     row-gap: normal;
   }
   .skill-logo:nth-child(3n+1){
-    padding-top: 80px;
+    margin-top: 80px;
   }
   .skill-logo:first-child{
-    padding-top: 0;
+    margin-top: 0;
   }
 }
