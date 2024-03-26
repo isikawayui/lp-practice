@@ -49,6 +49,7 @@ header .log{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 400px 0;
+    max-width: 100%;
 }
 
 h1{
@@ -203,16 +204,59 @@ th:first-child{
 /*footer*/
 footer{
     background: #cfd8dc;
+    padding: 20px 0 25px 0;
 }
 footer .footer-text{    
     font-size: 10px;
     letter-spacing: 0.5px;
     text-align: right;
 }
-.footer-text{
-    padding: 20px 0 25px 0;
-}
+
 /*footer*/
+
+
+
+@media screen and (max-width:1199px){
+    .wrapper{
+        max-width: 1199px;
+        width: 97%;
+        margin: auto;
+    }
+    .inner{
+        max-width: 1199px;
+        width: 97%;
+      }
+      
+    .keyvisual{
+        padding: 250px 0;
+        max-width: 100%;
+        background-position: 0 center;
+    }
+
+    .work-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-area,.work-logo{
+    max-width: 100%;
+    width: auto;
+  }
+  .work{
+    padding-bottom: 50px;
+  }
+  .plan-inner ul{
+    flex-direction: column;
+    align-items: center;
+    row-gap: normal;
+  }
+  .skill-logo:nth-child(3n+1){
+    margin-top: 80px;
+  }
+  .skill-logo:first-child{
+    margin-top: 0;
+  }
+}
 
 
 @media screen and (max-width:767px) {
@@ -273,7 +317,7 @@ footer .footer-text{
     }
     .keyvisual{
         padding: 200px 0;
-        width: 100%;
+        max-width: 100%;
         background-position: 0 center;
     }
   .work-layout{
@@ -320,49 +364,6 @@ footer .footer-text{
     line-height: 0;
   }
   .sns-color{
-    width: 97%;
-    padding: 50px 15px;
-  }
-}
-
-@media screen and (max-width:1199px){
-    .wrapper{
-        max-width: 1199px;
-        width: 97%;
-        margin: auto;
-    }
-    .inner{
-        max-width: 1199px;
-        width: 97%;
-      }
-      
-    .keyvisual{
-        padding: 250px 0;
-        width: 100%;
-        background-position: 0 center;
-    }
-
-    .work-layout{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .work-area,.work-logo{
-    max-width: 100%;
-    width: auto;
-  }
-  .work{
-    padding-bottom: 50px;
-  }
-  .plan-inner ul{
-    flex-direction: column;
-    align-items: center;
-    row-gap: normal;
-  }
-  .skill-logo:nth-child(3n+1){
-    margin-top: 80px;
-  }
-  .skill-logo:first-child{
-    margin-top: 0;
+    width: 100%;
   }
 }
