@@ -17,6 +17,8 @@ a{
 header{
     background: #fff;
     padding: 15px 0;
+    position: fixed;
+    width: 100%;
 }
 
 header .log{
@@ -43,6 +45,9 @@ header .log{
 }
 
 /*ヘッダー*/
+.big-img{
+    padding-top: 80px;
+}
 
 .keyvisual{
     background-image:url(../img/keyvisual/keyvisual.jpg);
@@ -50,6 +55,7 @@ header .log{
     background-repeat: no-repeat;
     background-position: center;
     padding: 400px 0;
+
 }
 
 h1{
